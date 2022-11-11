@@ -8,6 +8,8 @@ public class Jukebox1 {
 	public void go() {
 		List<String> songList = MockSongs.getSongStrings();
 		System.out.println(songList);
+		Collections.sort(songList);
+		System.out.println(songList);
 	}
 }
 
