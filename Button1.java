@@ -7,7 +7,7 @@ public class Button1 {
 		gui.go();
 	}
 	public void go() {
-		// Create a button for each region. Realize that NORTH & SOUTH regions, you can get whatever height you want but the width is fixed. With the EAST & WEST regions, you can get whatever width you want but the height is fixed. With the center region, you can choose the height and the width.
+		// Create a button for each region. Realize that NORTH & SOUTH regions, you can get whatever height you want but the width is fixed. With the EAST & WEST regions, you can get whatever width you want but the height is fixed. With the center region, you get whatever is left.
 		JFrame frame = new JFrame();
 
 		JButton east = new JButton("East");
